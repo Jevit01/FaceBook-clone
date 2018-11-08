@@ -1,0 +1,113 @@
+body{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 3;
+  background-color: #dfe3ee;
+  margin: 0;
+  top: auto;
+  font-family: sans-serif;
+}
+
+.title{
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #3b5998;
+  color: white;
+  padding-left: 200px;
+}
+
+.logstuff{
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #3b5998;
+  color: white;
+}
+
+.grid1{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.grid2{
+  display: grid;
+  grid-column: 2;
+  grid-row: 2
+}
+
+p{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.first{
+  width: 172px;
+  height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  border-style: ridge;
+}
+
+.last{
+  width: 172px;
+  height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  border-style: ridge;
+}
+
+.EM{
+  width: 372px;
+  height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  border-style: ridge;
+}
+
+.Pass{
+  width: 372px;
+  height: 21px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  border-style: ridge;
+}
+
+.sex{
+  display: inline;
+}
+
+.why{
+  font-weight: 350;
+  font-size: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.why:hover{
+
+}
+
+.foot{
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 100px;
+  width: 100%;
+}
+
+h1{
+  cursor: pointer;
+}
